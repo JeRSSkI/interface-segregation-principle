@@ -1,1 +1,11 @@
-# interface-segregation-principle
+# Interface Segregation Principle (ISP)
+
+## Опис
+Принцип розділення інтерфейсу означає, що класи не повинні
+залежати від методів, які вони не використовують.
+
+## Приклад
+У цьому репозиторії:
+- Workable та Eatable — окремі інтерфейси
+- Human реалізує обидва
+- Robot реалізує лише Workable
